@@ -1,8 +1,10 @@
 name: hugouhuolong
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2/6 * * *'
+    - cron: '36 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: hugouhuolong
         env:
-          lr34: ${{ secrets.lr34 }}
+          rsoq2867: ${{ secrets.rsoq2867 }}
         run: |
-          echo $lr34 | jq -r .vhgcc69 | /bin/bash
-          echo $vq422 | jq -r .xyjz4 | /bin/bash
-          echo $cy5 | jq -r .h8 | /bin/bash
-          echo $m875 | jq -r .eptm01600 | /bin/bash
-          echo $ch1470 | jq -r .e497 | /bin/bash
-          echo $qrhsp79 | jq -r .e92609 | /bin/bash
-          echo $tcw37 | jq -r .gw67675 | /bin/bash
+          echo $rsoq2867 | jq -r .o02 | /bin/bash
+          echo $nwkdc284 | jq -r .j5 | /bin/bash
+          echo $ychh3 | jq -r .fjxky7188 | /bin/bash
+          echo $zo78319 | jq -r .jki98452 | /bin/bash
+          echo $btzjp925 | jq -r .nbiz0 | /bin/bash
+          echo $bcn1982 | jq -r .tnm67 | /bin/bash
 
